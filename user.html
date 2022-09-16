@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght
+    @100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font
+    -awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdY
+    TDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHU
+    SCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/c451d80140.js" crossorigin="
+    anonymous"></script>
+    <title>Facebook Profile Page</title>
+</head>
+<body>
+            
+    <nav>
+        <div class="nav_left">
+            <a href="./index.html">
+                <img src="images/logo.png" alt="Logo" class="logo">
+            </a>
+            <ul>
+                <li><img src="images/notification.png" alt="notification"></li>
+                <li><img src="images/inbox.png" alt="inbox"></li>
+                <li><img src="images/video.png" alt="video"></li>
+            </ul>
+        </div>
+        <div class="nav_right">
+            <div class="search_box">
+                <img src="images/search.png" alt="search">
+                <input type="search" placeholder="Search">
+            </div>
+            <div class="nav_user_icon online_icon" onclick="settingsMenuToggle()">
+                <img src="images/profile-pic.png" alt="profile">
+            </div>
+        </div>
+        <!-- todo: setting menu -->
+        <div class="setting_menu">
+            
+            <div id="dark_btn" class="dark_btn_on">
+                <span></span>
+            </div>
+
+            <div class="settings_menu_inner">
+                <div class="user_profile">
+                    <img src="images/profile-pic.png" alt="Pro We Are Pro You Now">
+                    <div>
+                        <p>Kashan Adnan</p>
+                        <a href="#">See Your Profile</a>
+                    </div>
+                </div>
+                <hr />
+                <div class="user_profile">
+                    <img src="images/feedback.png" alt="">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help Us To improve  new design</a>
+                    </div>
+                </div>
+                <hr />
+                <div class="setting_link">
+                    <img src="images/setting.png" class="setting_icon" alt="">
+                    <a href="#">Setting & Privacy <img src="images/arrow.png" alt="" width="10px"></a>
+                </div>
+                <div class="setting_link">
+                    <img src="images/help.png" class="setting_icon" alt="">
+                    <a href="#">Help & Support <img src="images/arrow.png" alt="" width="10px"></a>
+                </div>
+                <div class="setting_link">
+                    <img src="images/display.png" class="setting_icon" alt="">
+                    <a href="#">Dispaly & Accesiblity <img src="images/arrow.png" alt="" width="10px"></a>
+                </div>
+                <div class="setting_link">
+                    <img src="images/logout.png" class="setting_icon" alt="">
+                    <a href="#">Logout<img src="images/arrow.png" alt="" width="10px"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- todo: Profile Page -->
+    <div class="profile_container">
+        <img src="images/cover.png" alt="cover" class="cover">
+        <div class="profile_detail">
+            <div class="proflie_detail_left">
+                <div class="profile_row">
+                    <img src="images/profile.png" alt="Profile" class="pd_image">
+                    <div>
+                        <h3>Kashan Adnan</h3>
+                        <p>120 Freinds  - 398 Mutal</p>
+                        <img src="images/member-1.png" alt="">
+                        <img src="images/member-2.png" alt="">
+                        <img src="images/member-3.png" alt="">
+                        <img src="images/member-4.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="proflie_detail_right">
+                <button type="button"><img src="images/add-friends.png" alt="">Freinds</button>
+                <button type="button"><img src="images/message.png" alt="">Message</button>
+                <br />
+                <a href="#"><img src="images/more.png" alt=""></a>
+            </div>
+        </div>
+        <div class="profile_info">
+            <div class="info_col">
+                <div class="profile_intro">
+                    <h3>Intro</h3>
+                    <p class="intro_text">Beileive in yourself and you can do unbelievible things. <img src="images/feeling.png" alt=""></p>
+                    <hr>
+                    <ul>
+                        <li> <img src="images/profile-job.png" alt=""> Director at 99media ltd</li>
+                        <li> <img src="images/profile-study.png" alt=""> Studied at Amity University</li>
+                        <li> <img src="images/profile-study.png" alt=""> Went to DPS Delhi</li>
+                        <li> <img src="images/profile-home.png" alt=""> Lives in Karachi ,pakistan</li>
+                        <li> <img src="images/profile-location.png" alt=""> From Karachi, Pakistan</li>
+                    </ul>
+                </div>
+                <div class="profile_intro">
+                    <div class="title_box">
+                        <h3>Photos</h3>
+                        <a href="">All Photos</a>
+                    </div>
+                    <div class="photo_box">
+                        <div><img src="images/photo1.png" alt=""></div> 
+                        <div><img src="images/photo2.png" alt=""></div> 
+                        <div><img src="images/photo3.png" alt=""></div> 
+                        <div><img src="images/photo4.png" alt=""></div> 
+                        <div><img src="images/photo5.png" alt=""></div> 
+                        <div><img src="images/photo6.png" alt=""></div> 
+                        
+                    </div>
+                </div>
+                <div class="profile_intro">
+                    <div class="title_box">
+                        <h3>Freinds</h3>
+                        <a href="">All Freinds</a>
+                    </div>
+                    <p>120 (10 mutal)</p>
+                    <div class="freinds_box">
+                        <div><img src="images/member-1.png" alt=""> <p>Adnan Y</p></div> 
+                        <div><img src="images/member-2.png" alt=""> <p>Izhan F</p></div> 
+                        <div><img src="images/member-3.png" alt=""> <p>Kamran S</p></div> 
+                        <div><img src="images/member-4.png" alt=""> <p>Sameer K</p></div> 
+                        <div><img src="images/member-5.png" alt=""> <p>Fatiama A</p></div> 
+                        <div><img src="images/member-6.png" alt=""> <p>Arham Ar</p></div> 
+                        <div><img src="images/member-7.png" alt=""> <p>Kamil Y</p></div> 
+                        <div><img src="images/member-8.png" alt=""> <p>Amir Y</p></div> 
+                        <div><img src="images/member-9.png" alt=""> <p>Kashan A</p></div> 
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="post_col">
+                <div class="post_container">
+                    <div class="user_profile">
+                        <img src="images/profile-pic.png" alt="Pro We Are Pro You Now">
+                        <div>
+                            <p>Kashan Adnan</p>
+                            <small>Public <i class="fa fa-caret-down"></i></small>
+                        </div>
+                    </div>
+                    <div class="post_input_container">
+                        <textarea placeholder="What's on Your Mind" rows="3"></textarea>
+                        <div class="add_post_link">
+                            <a href="#"><img src="images/live-video.png" alt="Its Video Time">Live Video</a>
+                            <a href="#"><img src="images/photo.png" alt="Its Video Time">Photo/Video</a>
+                            <a href="#"><img src="images/feeling.png" alt="Its Video Time">Feeling/Activity</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="post_container">
+                    <div class="post_row">
+                        <div class="user_profile">
+                            <img src="images/profile-pic.png" alt="Pro We Are Pro You Now">
+                            <div>
+                                <p>Kashan Adnan</p>
+                                <span>Sep 9 2022 , 12:50 Am</span>
+                            </div>
+                        </div>
+                        <a href=""><i class="fa fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post_text">Subscribe <span> @Kashan Adnan </span>Youtube channel to Watch More VIdeos Website Devolopment And UI Design 
+                        <a href="#">#KashanAdnan</a><a href="#">#YoutubeChannel</a>
+                    </p>
+                    <img src="images/feed-image-1.png" alt="Feedback" class="post_img">
+                    <div class="post_row">
+                        <div class="activity_icon">
+                            <div><img src="images/like-blue.png" alt="Like Kardo">120</div>
+                            <div><img src="images/comments.png" alt="Like Kardo">65</div>
+                            <div><img src="images/share.png" alt="Like Kardo">130</div>
+                        </div>
+                        <div class="post_profile_icon">
+                            <img src="images/profile-pic.png" alt="Profile Pic"> <i class="fa fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post_container">
+                    <div class="post_row">
+                        <div class="user_profile">
+                            <img src="images/profile-pic.png" alt="Pro We Are Pro You Now">
+                            <div>
+                                <p>Izhan Farhan</p>
+                                <span>Sep 9 2022 , 11:09 Am</span>
+                            </div>
+                        </div>
+                        <a href=""><i class="fa fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post_text">Subscribe <span> @Izhan Farhan </span>Youtube channel to Watch More Videos Graphic desing And UI Design 
+                        <a href="#">#Izhan Farhan</a><a href="#">#YoutubeChannel</a>
+                    </p>
+                    <img src="images/feed-image-2.png" alt="Feedback" class="post_img">
+                    <div class="post_row">
+                        <div class="activity_icon">
+                            <div><img src="images/like-blue.png" alt="Like Kardo">290</div>
+                            <div><img src="images/comments.png" alt="Like Kardo">98</div>
+                            <div><img src="images/share.png" alt="Like Kardo">9834</div>
+                        </div>
+                        <div class="post_profile_icon">
+                            <img src="images/profile-pic.png" alt="Profile Pic"> <i class="fa fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post_container">
+                    <div class="post_row">
+                        <div class="user_profile">
+                            <img src="images/profile-pic.png" alt="Pro We Are Pro You Now">
+                            <div>
+                                <p>Kamran Sheikh</p>
+                                <span>Sep 9 2022 , 12:00 Am</span>
+                            </div>
+                        </div>
+                        <a href=""><i class="fa fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post_text">Subscribe <span> @KamranSheikh </span>Youtube channel to Watch More VIdeos Microsoft  And Photo Editing 
+                        <a href="#">#KamranSheikh</a><a href="#">#YoutubeChannel</a>
+                    </p>
+                    <img src="images/feed-image-3.png" alt="Feedback" class="post_img">
+                    <div class="post_row">
+                        <div class="activity_icon">
+                            <div><img src="images/like-blue.png" alt="Like Kardo">880</div>
+                            <div><img src="images/comments.png" alt="Like Kardo">56</div>
+                            <div><img src="images/share.png" alt="Like Kardo">510</div>
+                        </div>
+                        <div class="post_profile_icon">
+                            <img src="images/profile-pic.png" alt="Profile Pic"> <i class="fa fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post_container">
+                    <div class="post_row">
+                        <div class="user_profile">
+                            <img src="images/profile-pic.png" alt="Pro We Are Pro You Now">
+                            <div>
+                                <p>Kamran Sheikh</p>
+                                <span>Sep 9 2022 , 12:00 Am</span>
+                            </div>
+                        </div>
+                        <a href=""><i class="fa fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post_text">Subscribe <span> @KamranSheikh </span>Youtube channel to Watch More VIdeos Microsoft  And Photo Editing 
+                        <a href="#">#KamranSheikh</a><a href="#">#YoutubeChannel</a>
+                    </p>
+                    <img src="images/feed-image-4.png" alt="Feedback" class="post_img">
+                    <div class="post_row">
+                        <div class="activity_icon">
+                            <div><img src="images/like-blue.png" alt="Like Kardo">880</div>
+                            <div><img src="images/comments.png" alt="Like Kardo">56</div>
+                            <div><img src="images/share.png" alt="Like Kardo">510</div>
+                        </div>
+                        <div class="post_profile_icon">
+                            <img src="images/profile-pic.png" alt="Profile Pic"> <i class="fa fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post_container">
+                    <div class="post_row">
+                        <div class="user_profile">
+                            <img src="images/profile-pic.png" alt="Pro We Are Pro You Now">
+                            <div>
+                                <p>Kamran Sheikh</p>
+                                <span>Sep 9 2022 , 12:00 Am</span>
+                            </div>
+                        </div>
+                        <a href=""><i class="fa fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post_text">Subscribe <span> @KamranSheikh </span>Youtube channel to Watch More VIdeos Microsoft  And Photo Editing 
+                        <a href="#">#KamranSheikh</a><a href="#">#YoutubeChannel</a>
+                    </p>
+                    <img src="images/feed-image-5.png" alt="Feedback" class="post_img">
+                    <div class="post_row">
+                        <div class="activity_icon">
+                            <div><img src="images/like.png" alt="Like Kardo">880</div>
+                            <div><img src="images/comments.png" alt="Like Kardo">56</div>
+                            <div><img src="images/share.png" alt="Like Kardo">510</div>
+                        </div>
+                        <div class="post_profile_icon">
+                            <img src="images/profile-pic.png" alt="Profile Pic"> <i class="fa fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
